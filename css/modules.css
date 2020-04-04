@@ -1,0 +1,81 @@
+h1 {
+    margin: 20px;
+    animation-duration: 1s;
+    animation-name: fadein;
+  }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #dropdownanimalmenu, #sortby {
+    margin: 20px;
+  }
+  
+  section.animal {
+    font-family: 'Solway', serif;
+    animation-duration: 1s;
+    animation-name: slide;
+    background-color: lightgreen;
+    border: 3px solid darkgreen;
+    width: 25%;
+    height: 300px;
+    text-align: center;
+  }
+  
+  @keyframes slide {
+    from {
+      position: relative;
+      top: 10px;
+    }
+  
+    to {
+      position: relative;
+      top: 0px;
+    }
+  }
+    
+  section.animal h2, p {
+    color: darkblue;
+  }
+  
+  section.animal h2 {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 3%;
+  }
+    
+  section.animal img {
+    height: 50%;
+    margin-top: 5%;
+  }
+  
+  section.animal p {
+    margin-top: 7%;
+  }
+  
+  #dropdownanimalmenu, #sortby, #sortby > option, #dropdownanimalmenu > option {
+    background-color: #7ec;
+    color: darkblue;
+    font-style: bold;
+    text-transform: uppercase;
+  }
+  
+  button {
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+  }
+  
+  footer {
+    display: flex;
+    margin-top: 2%;
+    justify-content: flex-end;
+  }
